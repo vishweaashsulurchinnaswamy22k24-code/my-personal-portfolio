@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Portfolio</title>
+
+    <title>Vishweash Sulur Chinnaswamy | Portfolio</title>
 
     <style>
         * {
@@ -50,7 +51,7 @@
         }
 
         .hero h1 {
-            font-size: 42px;
+            font-size: clamp(28px, 5vw, 42px);
             margin-bottom: 15px;
         }
 
@@ -58,9 +59,13 @@
             color: #38bdf8;
         }
 
+        .hero h3 {
+            margin-bottom: 10px;
+        }
+
         .hero p {
             color: #cbd5e1;
-            max-width: 650px;
+            max-width: 700px;
             margin: auto;
         }
 
@@ -72,6 +77,11 @@
             color: white;
             text-decoration: none;
             border-radius: 6px;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #0369a1;
         }
 
         section {
@@ -89,6 +99,11 @@
             padding: 25px;
             border-radius: 10px;
             margin-bottom: 20px;
+        }
+
+        .card h3 {
+            margin-bottom: 10px;
+            color: #f8fafc;
         }
 
         .skills {
@@ -111,9 +126,13 @@
             color: #cbd5e1;
         }
 
+        a {
+            color: #38bdf8;
+        }
+
         @media(max-width: 600px) {
-            .hero h1 {
-                font-size: 30px;
+            .hero {
+                padding: 75px 15px;
             }
 
             header {
@@ -124,14 +143,19 @@
             nav {
                 text-align: center;
             }
+
+            section {
+                padding: 45px 7%;
+            }
         }
     </style>
 </head>
 
 <body>
 
+<!-- HEADER -->
 <header>
-    <h2>MY PORTFOLIO</h2>
+    <h2>VISHWEASH S C</h2>
 
     <nav>
         <a href="#about">About</a>
@@ -142,112 +166,183 @@
     </nav>
 </header>
 
+<!-- HOME SECTION -->
 <div class="hero">
-    <h1>Welcome to <span>My Portfolio</span></h1>
 
-    <h3>Student | Technology Enthusiast</h3>
+    <h1>Hello, I'm
+        <span>Vishweash Sulur Chinnaswamy</span>
+    </h1>
+
+    <h3>Computer Science Student | Technology Enthusiast</h3>
 
     <p>
         Welcome to my personal portfolio!
-        I am passionate about technology, programming,
-        innovation and learning new skills.
-        I enjoy exploring new ideas and developing
+        I am a third-year Computer Science student
+        passionate about programming, technology,
+        innovation and continuous learning.
+
+        I enjoy exploring programming languages,
+        developing technical skills and finding
         creative solutions to real-world problems.
     </p>
 
     <a href="#about" class="btn">Explore My Portfolio</a>
+
 </div>
 
+<!-- ABOUT SECTION -->
 <section id="about">
+
     <h2>About Me</h2>
 
     <div class="card">
         <p>
-            I am a student interested in programming,
-            web development and emerging technologies.
-            I believe in continuous learning and improving
-            my technical and problem-solving skills.
+            I am Vishweash Sulur Chinnaswamy,
+            currently pursuing my third year
+            of B.Sc. Computer Science at
+            KPR College of Arts, Science and Research.
+
+            I am interested in programming, software
+            development and emerging technologies.
+
+            My areas of study include C, C++, Java,
+            Linux and Python.
+
+            I believe in continuous learning,
+            improving my technical knowledge
+            and developing strong problem-solving skills.
             My goal is to gain practical experience
             and build innovative projects.
         </p>
     </div>
+
 </section>
 
+<!-- EDUCATION SECTION -->
 <section id="education">
+
     <h2>Education</h2>
 
     <div class="card">
-        <h3>Educational Qualification</h3>
-        <p>College / Institution</p>
-        <p>Undergraduate Student</p>
+
+        <h3>Bachelor of Science – Computer Science</h3>
+
+        <p>
+            KPR College of Arts, Science and Research
+        </p>
+
+        <p>
+            Currently Pursuing Third Year
+        </p>
+
+        <p>
+            Undergraduate Degree
+        </p>
+
     </div>
+
 </section>
 
+<!-- SKILLS SECTION -->
 <section id="skills">
-    <h2>My Skills</h2>
+
+    <h2>Technical Skills</h2>
 
     <div class="skills">
-        <span>HTML</span>
-        <span>CSS</span>
+
+        <span>C</span>
+        <span>C++</span>
         <span>Java</span>
+        <span>Linux</span>
         <span>Python</span>
-        <span>MySQL</span>
-        <span>GitHub</span>
-        <span>Web Development</span>
-        <span>Problem Solving</span>
-        <span>Communication</span>
+
     </div>
+
 </section>
 
+<!-- PROJECTS SECTION -->
 <section id="projects">
-    <h2>My Projects</h2>
+
+    <h2>Projects & Learning Activities</h2>
 
     <div class="card">
+
         <h3>Personal Portfolio Website</h3>
+
         <p>
             Created a personal portfolio website
-            using HTML and CSS to showcase skills,
-            interests and achievements.
+            to showcase my academic background,
+            technical skills and personal interests
+            using HTML and CSS.
         </p>
+
     </div>
 
     <div class="card">
+
         <h3>Programming Practice</h3>
+
         <p>
-            Practising programming concepts and
-            improving logical thinking through
-            coding exercises.
+            Practising programming concepts using
+            C, C++, Java and Python to improve
+            logical thinking and problem-solving abilities.
         </p>
+
     </div>
 
     <div class="card">
-        <h3>Web Development</h3>
+
+        <h3>Linux & Technology Learning</h3>
+
         <p>
-            Learning front-end development and
-            creating simple websites using HTML and CSS.
+            Exploring Linux environments,
+            understanding operating system concepts
+            and developing technical knowledge.
         </p>
+
     </div>
+
 </section>
 
+<!-- CONTACT SECTION -->
 <section id="contact">
+
     <h2>Contact & Connect</h2>
 
     <div class="card">
+
         <p>
             GitHub:
-            <a href="https://github.com/vishweaashsulurchinnaswamy22k24-code"
-               target="_blank">
-                Visit GitHub Profile
+            <a
+                href="https://github.com/vishweaashsulurchinnaswamy22k24-code"
+                target="_blank"
+                rel="noopener noreferrer">
+                Visit My GitHub Profile
             </a>
         </p>
 
-        <p>Thank you for visiting my portfolio!</p>
+        <p>
+            Thank you for visiting my portfolio!
+            Let's connect, explore technology
+            and learn together.
+        </p>
+
     </div>
+
 </section>
 
+<!-- FOOTER -->
 <footer>
-    <p>Personal Portfolio | 2026</p>
-    <p>Designed with HTML and CSS</p>
+
+    <p>
+        © 2026 Vishweash Sulur Chinnaswamy
+        | Personal Portfolio
+    </p>
+
+    <p>
+        Designed with HTML and CSS
+    </p>
+
 </footer>
 
 </body>
