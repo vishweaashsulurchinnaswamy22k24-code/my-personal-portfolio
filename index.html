@@ -1,1 +1,258 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #0f172a;
+            color: #f8fafc;
+            line-height: 1.7;
+        }
+
+        header {
+            background: #111c33;
+            padding: 20px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        header h2 {
+            color: #38bdf8;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+        }
+
+        nav a:hover {
+            color: #38bdf8;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        .hero h1 {
+            font-size: 42px;
+            margin-bottom: 15px;
+        }
+
+        .hero span {
+            color: #38bdf8;
+        }
+
+        .hero p {
+            color: #cbd5e1;
+            max-width: 650px;
+            margin: auto;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 12px 25px;
+            background: #0284c7;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+        }
+
+        section {
+            padding: 65px 10%;
+        }
+
+        section h2 {
+            color: #38bdf8;
+            margin-bottom: 25px;
+            font-size: 28px;
+        }
+
+        .card {
+            background: #1e293b;
+            padding: 25px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .skills span {
+            background: #1e293b;
+            padding: 10px 18px;
+            border-radius: 20px;
+            border: 1px solid #38bdf8;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            background: #111c33;
+            color: #cbd5e1;
+        }
+
+        a {
+            color: #38bdf8;
+        }
+
+        @media(max-width: 600px) {
+            .hero h1 {
+                font-size: 30px;
+            }
+
+            header {
+                justify-content: center;
+                gap: 12px;
+            }
+
+            nav {
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h2>YOUR NAME</h2>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<div class="hero">
+    <h1>Hello, I'm <span>Your Name</span></h1>
+
+    <h3>Student | Technology Enthusiast</h3>
+
+    <p>
+        Welcome to my personal portfolio!
+        I am passionate about technology, programming,
+        innovation and learning new skills.
+        I enjoy exploring new ideas and developing
+        creative solutions to real-world problems.
+    </p>
+
+    <a href="#about" class="btn">Explore My Portfolio</a>
+</div>
+
+<section id="about">
+    <h2>About Me</h2>
+
+    <div class="card">
+        <p>
+            I am a student interested in programming,
+            web development and emerging technologies.
+            I believe in continuous learning and improving
+            my technical and problem-solving skills.
+            My goal is to gain practical experience
+            and build innovative projects.
+        </p>
+    </div>
+</section>
+
+<section id="education">
+    <h2>Education</h2>
+
+    <div class="card">
+        <h3>Your Degree / Course</h3>
+        <p>Your College Name</p>
+        <p>Currently Pursuing</p>
+    </div>
+</section>
+
+<section id="skills">
+    <h2>My Skills</h2>
+
+    <div class="skills">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>Java</span>
+        <span>Python</span>
+        <span>MySQL</span>
+        <span>GitHub</span>
+        <span>Web Development</span>
+        <span>Problem Solving</span>
+        <span>Communication</span>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>My Projects</h2>
+
+    <div class="card">
+        <h3>Personal Portfolio Website</h3>
+        <p>
+            Created a personal portfolio website
+            using HTML and CSS to showcase my
+            profile, skills and interests.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>Programming Practice</h3>
+        <p>
+            Practising programming concepts and
+            improving logical thinking through
+            coding exercises.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>Web Development</h3>
+        <p>
+            Learning front-end development and
+            creating simple websites using HTML and CSS.
+        </p>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact & Connect</h2>
+
+    <div class="card">
+        <p>
+            GitHub:
+            <a href="#">
+                Add Your GitHub Profile
+            </a>
+        </p>
+
+        <p>Thank you for visiting my portfolio!</p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Your Name | Personal Portfolio</p>
+    <p>Designed with HTML and CSS</p>
+</footer>
+
+</body>
+</html>
+
